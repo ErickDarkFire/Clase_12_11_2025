@@ -1,0 +1,15 @@
+name: Work 2 Erick
+on: [push]
+jobs:
+  push:
+      branches:
+        - test_1
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Impresion 1
+      run: echo "Hola Pitaya!"
+    - name: Impresion 2
+      run: echo "Que hace"
+    - name: Impresion 3
+      run: echo "Pa terminar"
