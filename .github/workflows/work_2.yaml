@@ -1,9 +1,9 @@
 name: Work 2 Erick
 on: [push]
-jobs:
   push:
       branches:
         - test_1
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
