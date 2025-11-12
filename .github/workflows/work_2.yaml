@@ -1,5 +1,5 @@
 name: Work 2 Erick
-on: [push]
+on:
   push:
       branches:
         - test_1
